@@ -135,7 +135,7 @@ export default function HeroSection() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="flex items-center gap-6 pt-2"
+              className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2"
             >
               <div className="flex -space-x-2">
                 {[1,2,3,4,5].map(i => (
