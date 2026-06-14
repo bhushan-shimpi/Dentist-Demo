@@ -1,0 +1,88 @@
+export const GALLERY_IMAGES = [
+  {
+    id: 1,
+    src: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&q=80',
+    alt: 'Modern dental clinic reception',
+    category: 'Clinic',
+    width: 600, height: 400,
+  },
+  {
+    id: 2,
+    src: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80',
+    alt: 'Dental treatment in progress',
+    category: 'Treatments',
+    width: 600, height: 800,
+  },
+  {
+    id: 3,
+    src: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80',
+    alt: 'Beautiful smile transformation',
+    category: 'Before & After',
+    width: 600, height: 400,
+  },
+  {
+    id: 4,
+    src: 'https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=600&q=80',
+    alt: 'Dental equipment',
+    category: 'Equipment',
+    width: 600, height: 600,
+  },
+  {
+    id: 5,
+    src: 'https://images.unsplash.com/photo-1592781957988-e4d42c4f0eb5?w=600&q=80',
+    alt: 'Patient consultation',
+    category: 'Consultations',
+    width: 600, height: 400,
+  },
+  {
+    id: 6,
+    src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80',
+    alt: 'Dental x-ray review',
+    category: 'Treatments',
+    width: 600, height: 800,
+  },
+  {
+    id: 7,
+    src: 'https://images.unsplash.com/photo-1588776814546-1ffbb9dfca04?w=600&q=80',
+    alt: 'Teeth whitening treatment',
+    category: 'Treatments',
+    width: 600, height: 400,
+  },
+  {
+    id: 8,
+    src: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80',
+    alt: 'Pediatric dental visit',
+    category: 'Pediatric',
+    width: 600, height: 600,
+  },
+  {
+    id: 9,
+    src: 'https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?w=600&q=80',
+    alt: 'Happy patient after treatment',
+    category: 'Before & After',
+    width: 600, height: 400,
+  },
+  {
+    id: 10,
+    src: 'https://images.unsplash.com/photo-1580281657702-257584239a55?w=600&q=80',
+    alt: 'Dental clinic interior',
+    category: 'Clinic',
+    width: 600, height: 800,
+  },
+  {
+    id: 11,
+    src: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80',
+    alt: 'Cosmetic dentistry result',
+    category: 'Before & After',
+    width: 600, height: 400,
+  },
+  {
+    id: 12,
+    src: 'https://images.unsplash.com/photo-1619468293780-fa10073fe671?w=600&q=80',
+    alt: 'Advanced dental technology',
+    category: 'Equipment',
+    width: 600, height: 600,
+  },
+];
+
+export const GALLERY_CATEGORIES = ['All', 'Clinic', 'Treatments', 'Before & After', 'Equipment', 'Consultations', 'Pediatric'];
