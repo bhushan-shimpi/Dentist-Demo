@@ -159,9 +159,10 @@ export default function Footer() {
           <p className="flex items-center gap-1">
             Made with <Heart className="w-3 h-3 text-red-400 fill-red-400" /> for healthier smiles
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-4">
             <Link to="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</Link>
+            <Link to="/admin" className="hover:text-dental-400 font-medium transition-colors">Dentist Login</Link>
           </div>
         </div>
       </div>

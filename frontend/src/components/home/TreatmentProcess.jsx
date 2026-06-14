@@ -99,7 +99,7 @@ export default function TreatmentProcess() {
                   </div>
 
                   {/* Center dot */}
-                  <div className="absolute left-0 md:left-1/2 -translate-x-2 md:-translate-x-1/2 flex-shrink-0 z-10">
+                  <div className="absolute left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 flex-shrink-0 z-10">
                     <motion.div
                       whileHover={{ scale: 1.15 }}
                       className={`w-12 h-12 ${colors.dot} rounded-2xl flex items-center justify-center text-white font-bold shadow-lg`}

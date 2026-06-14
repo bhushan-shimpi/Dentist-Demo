@@ -10,7 +10,6 @@ const TRUST_BADGES = [
   { icon: <Shield className="w-4 h-4" />,  text: 'ISO Certified Clinic' },
   { icon: <Award  className="w-4 h-4" />,  text: '15+ Awards Won' },
   { icon: <Star   className="w-4 h-4" />,  text: '4.9★ Google Rating' },
-  { icon: <CheckCircle className="w-4 h-4" />, text: '10,000+ Happy Patients' },
 ];
 
 export default function HeroSection() {
@@ -105,26 +104,29 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-row gap-3 w-full sm:w-auto"
             >
               <Button
                 size="lg"
                 onClick={() => navigate('/book-appointment')}
-                icon={<Calendar className="w-5 h-5" />}
+                icon={<Calendar className="w-5 h-5 sm:w-5 sm:h-5" />}
+                className="flex-1 px-2 sm:px-8 text-sm sm:text-base"
                 aria-label="Book an appointment"
               >
-                Book Appointment
+                <span className="hidden sm:inline">Book Appointment</span>
+                <span className="sm:hidden">Book Now</span>
               </Button>
 
               <a
                 href="https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-emerald text-base"
+                className="btn-emerald flex-1 justify-center px-2 sm:px-8 text-sm sm:text-base rounded-2xl flex items-center gap-2"
                 aria-label="Chat on WhatsApp"
               >
-                <MessageCircle className="w-5 h-5" />
-                WhatsApp Us
+                <MessageCircle className="w-5 h-5 sm:w-5 sm:h-5" />
+                <span className="hidden sm:inline">WhatsApp Us</span>
+                <span className="sm:hidden">WhatsApp</span>
               </a>
             </motion.div>
 
