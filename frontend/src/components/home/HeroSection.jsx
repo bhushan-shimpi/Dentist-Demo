@@ -75,7 +75,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-lg text-slate-600 max-w-2xl leading-relaxed"
+              className="text-lg text-slate-600 max-w-2xl leading-relaxed text-justify"
             >
               Experience world-class dental care with cutting-edge technology and a compassionate team.
               From routine check-ups to complete smile transformations — we do it all.
