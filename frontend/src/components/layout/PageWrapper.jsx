@@ -22,7 +22,7 @@ export default function PageWrapper({ children }) {
   const isAdmin = pathname.startsWith('/admin');
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-x-hidden relative w-full">
       {!isAdmin && <Navbar />}
 
       <AnimatePresence mode="wait">
